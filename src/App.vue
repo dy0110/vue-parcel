@@ -8,7 +8,7 @@
 export default {
     data() {
         return {
-            test: 'トップページです'
+            test: 'Hello World !'
         }
     },
 }
