@@ -9,14 +9,10 @@
     "@vue/component-compiler-utils": "^2.6.0",
     "parcel-bundler": "^1.12.0",
     "vue": "^2.6.8",
-    "vue-router": "^3.0.2",
-    "vue-template-compiler": "^2.6.8",
-    "vuex": "^3.1.0"
+    "vue-template-compiler": "^2.6.8"
   },
   "alias": {
-    "vue": "./node_modules/vue/dist/vue.common.js",
-    "vuex": "./node_modules/vuex/dist/vuex.common.js",
-    "vue-router": "./node_modules/vue-router/dist/vue-router.common.js"
+    "vue": "./node_modules/vue/dist/vue.common.js"
   },
   "scripts": {
     "start": "parcel src/index.html"
