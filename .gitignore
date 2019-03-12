@@ -1,3 +1,5 @@
+# 除外ファイルを記述する
+# Node.jsのモジュールとビルドによって生成されるフォルダを除外
 node_modules/
 .cache/
 dist/

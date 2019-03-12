@@ -1,7 +1,11 @@
+// Vueオブジェクトの定義を行い、App.vueを表示させます
 import Vue from 'vue';
 import App from "./App";
 
 new Vue({
   el: "#app",
-  render:h => h(App)
+  components: {
+    App
+  },
+  template: '<app></app>'
 })
